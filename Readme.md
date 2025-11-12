@@ -1,1 +1,1 @@
-# My MERN Project
+# My MERN Study 
