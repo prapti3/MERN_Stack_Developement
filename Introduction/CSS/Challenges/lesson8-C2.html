@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson8</title>
+
+    <style>
+
+          .firstname,
+        .lastname{
+            display: inline-block;
+            width: 120px;
+
+        }
+
+        .firstname,
+        .lastname,.email{
+            margin-top: 5px;
+            border: 0.5px solid rgb(209, 209, 209);
+            padding: 7px;
+            border-radius: 8px;
+
+
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+
+        }
+      
+        .email{
+            display: block;
+            width: 280px;
+        }
+
+        .signup-button{
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(54, 122, 249);
+            color: white;
+            margin-top: 6px;
+            width: 300px;
+            height: 30px;
+            font-weight: 600;
+            font-family: Arial, sans-serif;
+        }
+
+        .uber-request-text{
+            font-family: Arial,sans-serif;
+            font-weight: 300;
+        }
+
+
+        .location,
+        .destination{
+            font-family: Arial,sans-serif;
+            font-weight: 300;
+            display: block;
+            border: none;
+            background-color: rgb(241, 240, 240);
+            margin-top: 10px;
+            width: 270px;
+            padding: 8px;
+            border-radius: 5px;
+
+
+        }
+
+        .request{
+            background-color: black;
+            color: white;
+        }
+        .schedule{
+            background-color: rgb(240, 239, 239);
+            color: black;
+            margin-left: 10px;
+        }
+        .request,
+        .schedule{
+            font-family: Arial,sans-serif;
+            font-weight: 300;
+            border: none;
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="signup-form">
+        <input type="text" class="firstname" placeholder="First name">
+        <input type="text" class="lastname" placeholder="Last name">
+        <input type="text" class="email" placeholder="Email">
+
+        <button class="signup-button">Sign Up</button>
+
+
+    </div>
+
+
+    <hr>
+
+    <div class="uber-request">
+        <h1 class="uber-request-text">Request a ride now</h1>
+
+        <input type="text" class="location" placeholder="Enter pickup location">
+        <input type="text" class="destination" placeholder="Enter destination">
+
+        <div class="uber-button">
+            <button class="request">
+                Request now
+            </button>
+            <button class="schedule">
+                Schedule for later
+            </button>
+        </div>
+
+
+    </div>
+</body>
+</html>

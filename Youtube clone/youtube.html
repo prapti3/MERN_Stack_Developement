@@ -9,26 +9,106 @@
     <style>
         .thumbnail{
             width: 300px;
-            /* height: 300px;
-            object-fit: cover;
-            object-position: bottom;
-            border-width: 2px;
-            border-style: solid;
-            border-color: red; */
+            display: block;
 
 
         }
         .search-bar{
-            font-size: 20px;
-            margin-left: 12px;
+            /* font-size: 20px;
+            margin-left: 12px; */
+            display: block;
 
         }
+
+        .video-title{
+            width: 300px;
+        }
+        .video-author
+        ,.video-stats{
+            display: block;
+
+        }
+
+        .video-preview{
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+        }
+        
     </style>
 
 </head>
 <body>
-    <img  class="thumbnail" alt="" src="thumbnail/thumbnail-1.webp">
+
+
     <input type="text" class="search-bar" placeholder="Search">
+
+
+    <div class="video-preview">
+
+        <div>
+            <img  class="thumbnail" alt="" src="thumbnail/thumbnail-1.webp">
+        </div>
+        <div>
+            <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai !</p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183 6 months age</p>
+
+        </div>
+
+    
+    
+
+
+   
+
+    <!--display property
+    1. block element => takes up the entire line
+    2. inline-block => only takes up as mush space as needed
+    3. inline element => appear within a line of text
+     
+    
+    inline-block => block -->
+
+    <!-- div = division = just a box
+     div is a block element
+     div can containe other element
+     
+    -->
+     
+    
+     </div>
+
+
+      <div class="video-preview">
+
+    <img  class="thumbnail" alt="" src="thumbnail/thumbnail-2.webp">
+    
+
+
+    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai !</p>
+    <p class="video-author">Marques Brownlee</p>
+    <p class="video-stats">3.4M views &#183 6 months age</p>
+
+    <!--display property
+    1. block element => takes up the entire line
+    2. inline-block => only takes up as mush space as needed
+    3. inline element => appear within a line of text
+     
+    
+    inline-block => block -->
+
+    <!-- div = division = just a box
+     div is a block element
+     div can containe other element
+     
+    -->
+     
+    
+     </div>
+
+
 
 </body>
 </html>

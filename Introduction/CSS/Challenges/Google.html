@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search Page</title>
+
+    <style>
+
+        .google{
+            width: 300px;                /* adjust size */
+            margin: auto;                /* center card on page */
+            text-align: center;          /* center text + buttons */
+            display: flex;
+            flex-direction: column;      /* stack items vertically */
+            align-items: center;         /* center horizontally */
+            gap: 12px; 
+            font-family: Arial, sans-serif;
+            
+        }
+
+
+        .google-icon{
+            margin-top: 20px;
+        
+            width: 190px;                /* your preferred width */
+            border-radius: 8px;
+
+        }
+
+        .search-button{
+            display: flex;
+            justify-content: center;   /* center both buttons */
+            gap: 10px; 
+        }
+        .google-searchbox{
+            display: block;
+            width: 500px;
+            border: none;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+            padding: 15px;
+            border-radius: 20px;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .google-searchbox:hover{
+            border: none;
+
+        }
+        .google-search,
+        .google-lucky{
+            background-color: rgb(242, 242, 244);
+            padding: 16px;
+            border: none;
+            border-radius: 2px;
+            /* display: inline-block; */
+            font-size: 16px;
+            width: 200px;
+            margin-top: 20px;
+
+
+
+            color: black;
+
+        }
+        
+
+
+
+    </style>
+</head>
+<body>
+    
+
+     <div class="google">
+        <img src="Google_Images_2015_logo.svg.png" alt="google-icon" class="google-icon">
+        <input type="text" class="google-searchbox" placeholder="Search Goolge or type a URL">
+
+        <div class="search-button">
+        <button class="google-search">Google Search</button>
+        <button class="google-lucky">I'm Feeling Lucky</button>
+        </div>
+    </div>
+
+
+
+
+    
+</body>
+</html>

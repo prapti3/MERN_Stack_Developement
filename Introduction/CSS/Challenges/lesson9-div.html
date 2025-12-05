@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div element</title>
+
+    <style>
+        *,
+        html{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: none;
+        }
+        .header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box{
+            display: flex;
+            
+        }
+
+        .red-box,
+        .green-circle{
+            display: inline-block;
+            
+        }
+        .red-box{
+            
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            
+
+        }
+        .green-circle{
+           
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 50%;
+        }
+        .wrapping{
+            margin-top: 20px;
+            margin-left: 10px;
+            border: 2px solid black;
+            width: 300px;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        
+        .button-yes,
+        .button-no{
+            display: inline-block;
+            margin-top: 10px;
+            border: 1px solid rgb(184, 183, 183);
+            background-color: rgb(234, 234, 234);
+            color: black;
+            padding: 6px;
+            border-radius: 3px;
+            width: 40px;
+            font: 20px;
+            
+            
+        }
+
+        .youtube-music{
+            display: inline-block;
+            width: 400px;
+            background-color: rgb(32, 32, 32);
+            color: white;
+            font-family: Arial, sans-serif;
+            margin-top: 20px;
+            padding: 15px;
+
+
+        }
+        .yt-header{
+            font-weight: bold;
+            margin-top: 10px;
+            /* padding-left: 10px; */
+
+
+        }
+        .yt-detail{
+            color: rgb(87, 86, 86);
+            margin-top: 10px;
+            /* padding-left: 10px; */
+        
+
+
+
+        }
+    </style>
+</head>
+<body>
+
+   <h1 class="header"> lesson - 9 Exercise </h1>
+
+
+   <div class="box">
+
+   <h2>9a</h2>
+   <div class="red-box">
+
+   </div>
+
+
+   <h2>9b</h2>
+   <div class="green-circle">
+
+   </div>
+
+   </div>
+
+   <div class="wrapping">
+    <p class="text-wrap">Satisfied with our services?</p>
+
+    <button class="button-yes">Yes</button>
+    <button class="button-no">No</button>
+
+   </div>
+
+
+   <div class="youtube-music">
+    <h1 class="yt-header">Install Youtube Music</h1>
+    <p class="yt-detail">Add youtube music to your desktop for quick and easy access</p>
+   </div>
+
+
+
+    
+</body>
+</html>
