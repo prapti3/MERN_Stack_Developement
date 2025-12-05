@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Layout</title>
+
+    <style>
+        *,
+        html{
+            margin: 0;
+            padding: 0;
+            box-sizing: none;
+        }
+         .card{
+            display: inline-flex;
+            margin: 10px;
+            border: 1px solid black;
+            /* padding: 20px; */
+            
+
+
+        }
+        .card-header{
+            font-weight: 400;
+            font-size: 20px;
+            border: 1px solid red;
+            display: block;
+        }
+       
+        .card-img{
+
+            display: block;
+        }
+        
+        .card-img > img{
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+        }
+        .card-para1{
+            border: 1px solid red;
+            display: block;
+        }
+        .card-para2{
+            border: 1px solid red;
+            display: block;
+        }
+
+/* ------------------------------------------ */
+
+
+          .card2{
+            display: flex;
+            margin: 10px;
+            border: 1px solid rgb(212, 212, 212);
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+           
+            
+
+
+        }
+        .card2-header{
+            font-weight: 700;
+            font-size: 18px;
+            display: block;
+        }
+    
+        .card2-img{
+            display: block;
+        }
+        
+        .card2-img > img{
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            margin-right: 20px;
+        }
+        .card2-para1,
+        .card2-para2{
+            display: block;
+            font-size: 15px;
+            color: rgb(143, 143, 143);
+            line-height: 20px;
+        }
+        .card2-button{
+            display: flex;
+            align-items: flex-end;
+            
+            /* margin-left: 60px; */
+
+        }
+
+        .follow-button{
+            padding: 8px;
+            border-radius: 4px;
+            border: none;
+            width: 60px;
+            background-color: rgb(106, 106, 245);
+            color: white;
+            font-size: 15px;
+
+
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-img">
+            <img src="images.jpg" alt="">
+        </div>
+    
+
+        <div class="card-text">
+            <p class="card-header">Olive</p>
+            <p class="card-para1">Cat lover</p>
+            <p class="card-para2">black & white cat</p>
+        </div>
+
+    </div>
+
+
+      <div class="card2">
+        <div class="card2-img">
+            <img src="images.jpg" alt="">
+        </div>
+    
+
+        <div class="card2-text">
+            <p class="card2-header">Olive</p>
+            <p class="card2-para1">Cat lover</p>
+            <p class="card2-para2">black & white cat</p>
+        </div>
+
+        <div class="card2-button">
+            <button class="follow-button">Follow</button>
+        </div>
+
+    </div>
+
+      <div class="card2">
+        <div class="card2-img">
+            <img src="images.jpg" alt="">
+        </div>
+    
+
+        <div class="card2-text">
+            <p class="card2-header">Mimi</p>
+            <p class="card2-para1"> lover</p>
+            <p class="card2-para2">flower</p>
+        </div>
+
+        <div class="card2-button">
+            <button class="follow-button">Follow</button>
+        </div>
+
+    </div>
+
+      <div class="card2">
+        <div class="card2-img">
+            <img src="images.jpg" alt="">
+        </div>
+    
+
+        <div class="card2-text">
+            <p class="card2-header">Rex</p>
+            <p class="card2-para1">Heart lover</p>
+            <p class="card2-para2">black cat</p>
+        </div>
+
+        <div class="card2-button">
+            <button class="follow-button">Follow</button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    
+</body>
+</html>
