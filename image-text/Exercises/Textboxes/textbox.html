@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextBoxs</title>
+
+    <style>
+
+       
+
+
+        .link-header{
+            font-family: Arial;
+            color: rgb(104, 103, 103);
+            
+        }
+        .policy{
+            font-family: Arial;
+
+            color: gray;
+            font-size: 15px;
+        }
+        .linkdin-button{
+            background-color: blue;
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 15px;
+            color: white;
+            font-size: medium;
+
+        }
+        .textbar-round{
+            border-radius: 10px;
+            border: 0.5px solid rgb(228, 216, 216);
+            width: 180px;
+            height: 35px;
+            font-size: 17px;
+            color: rgb(211, 210, 210);
+            padding-left: 17px;
+            
+
+
+        }
+
+
+        .textbar-round2{
+            margin-top: 20px;
+            border-radius: 20px;
+            border: 0.5px solid rgb(228, 216, 216);
+            width: 300px;
+            height: 35px;
+            font-size: 17px;
+            color: rgb(211, 210, 210);
+            padding-left: 17px;
+            box-shadow: 1px 1px 5px 1px;
+
+        
+            
+
+        }
+
+         .textbar-round3{
+            /* margin-top: 5px; */
+            border: 12x solid rgb(228, 216, 216);
+            width: 300px;
+            height: 35px;
+            font-size: 17px;
+            color: rgb(211, 210, 210);
+            padding-left: 17px;
+            border-radius: 2px;
+
+        }
+
+        .twitter-box{
+            margin-top: 20px;
+            width: 400px;
+            height: 100px;
+            /* border: 2px solid ; */
+            display: flex;
+            align-items: center; /* vertically center */
+            gap: 10px;  
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+            box-shadow: 1px 1px 4px 3px;
+            
+        }
+        
+
+        .twitter-icon{
+            width: 55px;
+            height: 55px;
+            padding: 20px;
+            border-radius: 50px;
+            
+
+        }
+        .twitter-button{
+            margin-left: 10px;
+            padding: 10px;
+            font-size: 17px;
+            background-color: #037ff4;
+            border-radius: 20px;
+            border: none;
+            width: 80px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: larger;
+
+    
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- 1. with rounded corners -->
+     <input type="text" placeholder="Search" class="textbar-round">
+
+     <input type="text" placeholder="Search Google or type URL" class="textbar-round2">
+
+    <div class="linkdin">
+        <p class="link-header">Email</p>
+
+        <input type="text" placeholder="" class="textbar-round3">
+        <p class="policy">By Clicking Agree & Join, you agree to Privacy Policy</p>
+        <button class="linkdin-button">Agree & Join</button>
+    </div>
+          
+
+    <div class="twitter-box">
+        <img src="images.jpg" alt="twitter-icon" class="twitter-icon">
+        <p class="twitter-text">What's happening?</p>
+        <button class="twitter-button">Tweet</button>
+    </div>
+
+</body>
+</html>
